@@ -12,12 +12,15 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from langchain_openai import ChatOpenAI
+# Use direct submodule imports — langchain's top-level __init__.py sometimes
+# fails to re-export AgentExecutor on Streamlit Cloud due to caching/env issues.
 try:
-    from langchain.agents import AgentExecutor, create_tool_calling_agent
-except ImportError:
-    # Fallback to direct submodule imports if the top-level namespace is broken/cached
+    # Direct path — always available in langchain 0.3.x
     from langchain.agents.agent import AgentExecutor
     from langchain.agents.tool_calling_agent.base import create_tool_calling_agent
+except ImportError:
+    # Last resort: top-level namespace
+    from langchain.agents import AgentExecutor, create_tool_calling_agent  # type: ignore[no-redef]
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import SystemMessage
 
