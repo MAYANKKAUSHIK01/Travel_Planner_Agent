@@ -5,6 +5,18 @@ Built with LangChain + OpenAI + Open-Meteo API
 
 import sys
 import os
+print("=== STARTUP DIAGNOSTICS ===")
+print(f"Python executable: {sys.executable}")
+print(f"Python version: {sys.version}")
+print(f"sys.path: {sys.path}")
+try:
+    import langchain
+    print(f"langchain version: {getattr(langchain, '__version__', 'unknown')}")
+    print(f"langchain file: {getattr(langchain, '__file__', 'unknown')}")
+except Exception as e:
+    print(f"Failed to import langchain: {e}")
+print("===========================")
+
 import time
 import json
 from pathlib import Path
