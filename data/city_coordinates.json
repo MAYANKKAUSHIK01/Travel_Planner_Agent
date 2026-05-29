@@ -1,0 +1,77 @@
+{
+  "Goa": {
+    "latitude": 15.2993,
+    "longitude": 74.124,
+    "timezone": "Asia/Kolkata"
+  },
+  "Panaji": {
+    "latitude": 15.4909,
+    "longitude": 73.8278,
+    "timezone": "Asia/Kolkata"
+  },
+  "Delhi": {
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "timezone": "Asia/Kolkata"
+  },
+  "Mumbai": {
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "timezone": "Asia/Kolkata"
+  },
+  "Bangalore": {
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "timezone": "Asia/Kolkata"
+  },
+  "Kolkata": {
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "timezone": "Asia/Kolkata"
+  },
+  "Hyderabad": {
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "timezone": "Asia/Kolkata"
+  },
+  "Chennai": {
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "timezone": "Asia/Kolkata"
+  },
+  "Jaipur": {
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "timezone": "Asia/Kolkata"
+  },
+  "Udaipur": {
+    "latitude": 24.5854,
+    "longitude": 73.7125,
+    "timezone": "Asia/Kolkata"
+  },
+  "Manali": {
+    "latitude": 32.2396,
+    "longitude": 77.1887,
+    "timezone": "Asia/Kolkata"
+  },
+  "Shimla": {
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "timezone": "Asia/Kolkata"
+  },
+  "Agra": {
+    "latitude": 27.1767,
+    "longitude": 78.0081,
+    "timezone": "Asia/Kolkata"
+  },
+  "Varanasi": {
+    "latitude": 25.3176,
+    "longitude": 82.9739,
+    "timezone": "Asia/Kolkata"
+  },
+  "Rishikesh": {
+    "latitude": 30.0869,
+    "longitude": 78.2676,
+    "timezone": "Asia/Kolkata"
+  }
+}

@@ -1,0 +1,646 @@
+[
+  {
+    "place_id": "P001",
+    "name": "Baga Beach",
+    "city": "Goa",
+    "type": "Beach",
+    "rating": 4.3,
+    "entry_fee": 0,
+    "best_time": "Morning/Evening",
+    "duration_hours": 3,
+    "description": "Popular beach known for water sports, shacks, and nightlife",
+    "tags": [
+      "beach",
+      "water sports",
+      "nightlife"
+    ]
+  },
+  {
+    "place_id": "P002",
+    "name": "Basilica of Bom Jesus",
+    "city": "Goa",
+    "type": "Heritage",
+    "rating": 4.6,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "UNESCO World Heritage Site with St. Francis Xavier relics",
+    "tags": [
+      "heritage",
+      "church",
+      "UNESCO"
+    ]
+  },
+  {
+    "place_id": "P003",
+    "name": "Calangute Beach",
+    "city": "Goa",
+    "type": "Beach",
+    "rating": 4.1,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "Queen of Beaches in Goa with jet skiing and parasailing",
+    "tags": [
+      "beach",
+      "water sports",
+      "family"
+    ]
+  },
+  {
+    "place_id": "P004",
+    "name": "Dudhsagar Falls",
+    "city": "Goa",
+    "type": "Nature",
+    "rating": 4.5,
+    "entry_fee": 400,
+    "best_time": "Post-Monsoon",
+    "duration_hours": 4,
+    "description": "Stunning four-tiered waterfall on the Goa-Karnataka border",
+    "tags": [
+      "nature",
+      "waterfall",
+      "trekking"
+    ]
+  },
+  {
+    "place_id": "P005",
+    "name": "Fort Aguada",
+    "city": "Goa",
+    "type": "Heritage",
+    "rating": 4.2,
+    "entry_fee": 25,
+    "best_time": "Afternoon",
+    "duration_hours": 2,
+    "description": "17th century Portuguese fort with lighthouse and sea views",
+    "tags": [
+      "heritage",
+      "fort",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P006",
+    "name": "Anjuna Flea Market",
+    "city": "Goa",
+    "type": "Shopping",
+    "rating": 4.0,
+    "entry_fee": 0,
+    "best_time": "Wednesday mornings",
+    "duration_hours": 2,
+    "description": "Famous hippie flea market with handicrafts, clothes and souvenirs",
+    "tags": [
+      "shopping",
+      "culture",
+      "handicrafts"
+    ]
+  },
+  {
+    "place_id": "P007",
+    "name": "City Palace Udaipur",
+    "city": "Udaipur",
+    "type": "Heritage",
+    "rating": 4.7,
+    "entry_fee": 300,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "Magnificent palace complex on Lake Pichola",
+    "tags": [
+      "heritage",
+      "palace",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P008",
+    "name": "Lake Pichola Boat Ride",
+    "city": "Udaipur",
+    "type": "Activity",
+    "rating": 4.8,
+    "entry_fee": 700,
+    "best_time": "Sunset",
+    "duration_hours": 1,
+    "description": "Scenic boat ride on the serene lake with island palace views",
+    "tags": [
+      "lake",
+      "boat",
+      "romantic",
+      "sunset"
+    ]
+  },
+  {
+    "place_id": "P009",
+    "name": "Jag Mandir Island Palace",
+    "city": "Udaipur",
+    "type": "Heritage",
+    "rating": 4.5,
+    "entry_fee": 600,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Island palace hotel in Lake Pichola with garden and history",
+    "tags": [
+      "palace",
+      "island",
+      "romantic"
+    ]
+  },
+  {
+    "place_id": "P010",
+    "name": "Saheliyon-ki-Bari",
+    "city": "Udaipur",
+    "type": "Garden",
+    "rating": 4.3,
+    "entry_fee": 50,
+    "best_time": "Morning",
+    "duration_hours": 1,
+    "description": "Royal garden with fountains, kiosks and lotus pools",
+    "tags": [
+      "garden",
+      "history",
+      "peaceful"
+    ]
+  },
+  {
+    "place_id": "P011",
+    "name": "India Gate",
+    "city": "Delhi",
+    "type": "Monument",
+    "rating": 4.6,
+    "entry_fee": 0,
+    "best_time": "Evening",
+    "duration_hours": 1.5,
+    "description": "Iconic war memorial and famous landmark in New Delhi",
+    "tags": [
+      "monument",
+      "history",
+      "iconic"
+    ]
+  },
+  {
+    "place_id": "P012",
+    "name": "Red Fort",
+    "city": "Delhi",
+    "type": "Heritage",
+    "rating": 4.5,
+    "entry_fee": 35,
+    "best_time": "Morning",
+    "duration_hours": 2.5,
+    "description": "UNESCO World Heritage Mughal fort on the banks of Yamuna",
+    "tags": [
+      "heritage",
+      "history",
+      "UNESCO"
+    ]
+  },
+  {
+    "place_id": "P013",
+    "name": "Qutub Minar",
+    "city": "Delhi",
+    "type": "Heritage",
+    "rating": 4.6,
+    "entry_fee": 35,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Tallest brick minaret in the world, UNESCO World Heritage Site",
+    "tags": [
+      "heritage",
+      "UNESCO",
+      "iconic"
+    ]
+  },
+  {
+    "place_id": "P014",
+    "name": "Humayuns Tomb",
+    "city": "Delhi",
+    "type": "Heritage",
+    "rating": 4.7,
+    "entry_fee": 35,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Magnificent Mughal architecture, inspiration for the Taj Mahal",
+    "tags": [
+      "heritage",
+      "Mughal",
+      "UNESCO"
+    ]
+  },
+  {
+    "place_id": "P015",
+    "name": "Chandni Chowk",
+    "city": "Delhi",
+    "type": "Market",
+    "rating": 4.3,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "Historic market with street food, spices, textiles and jewelry",
+    "tags": [
+      "shopping",
+      "food",
+      "culture"
+    ]
+  },
+  {
+    "place_id": "P016",
+    "name": "Lotus Temple",
+    "city": "Delhi",
+    "type": "Religious",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1,
+    "description": "Stunning Bahai house of worship shaped like a lotus flower",
+    "tags": [
+      "temple",
+      "architecture",
+      "peaceful"
+    ]
+  },
+  {
+    "place_id": "P017",
+    "name": "Gateway of India",
+    "city": "Mumbai",
+    "type": "Monument",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Evening",
+    "duration_hours": 1.5,
+    "description": "Historic arch monument overlooking the Arabian Sea",
+    "tags": [
+      "monument",
+      "iconic",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P018",
+    "name": "Marine Drive",
+    "city": "Mumbai",
+    "type": "Promenade",
+    "rating": 4.6,
+    "entry_fee": 0,
+    "best_time": "Sunset/Night",
+    "duration_hours": 2,
+    "description": "Iconic C-shaped boulevard known as Queens Necklace",
+    "tags": [
+      "promenade",
+      "sea",
+      "sunset",
+      "walk"
+    ]
+  },
+  {
+    "place_id": "P019",
+    "name": "Elephanta Caves",
+    "city": "Mumbai",
+    "type": "Heritage",
+    "rating": 4.4,
+    "entry_fee": 40,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "UNESCO World Heritage rock-cut cave temples dedicated to Shiva",
+    "tags": [
+      "heritage",
+      "caves",
+      "UNESCO"
+    ]
+  },
+  {
+    "place_id": "P020",
+    "name": "CST Railway Station",
+    "city": "Mumbai",
+    "type": "Heritage",
+    "rating": 4.7,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1,
+    "description": "Victorian Gothic UNESCO World Heritage railway station",
+    "tags": [
+      "heritage",
+      "architecture",
+      "UNESCO"
+    ]
+  },
+  {
+    "place_id": "P021",
+    "name": "Mysore Palace",
+    "city": "Bangalore",
+    "type": "Heritage",
+    "rating": 4.7,
+    "entry_fee": 70,
+    "best_time": "Morning",
+    "duration_hours": 2.5,
+    "description": "Grand palace with Indo-Saracenic architecture and royal artifacts",
+    "tags": [
+      "heritage",
+      "palace",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P022",
+    "name": "Cubbon Park",
+    "city": "Bangalore",
+    "type": "Nature",
+    "rating": 4.4,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Lush green lung of Bangalore with jogging tracks and statues",
+    "tags": [
+      "nature",
+      "park",
+      "peaceful"
+    ]
+  },
+  {
+    "place_id": "P023",
+    "name": "ISKCON Temple Bangalore",
+    "city": "Bangalore",
+    "type": "Religious",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "Stunning Hare Krishna temple with beautiful architecture",
+    "tags": [
+      "temple",
+      "spiritual",
+      "architecture"
+    ]
+  },
+  {
+    "place_id": "P024",
+    "name": "Lalbagh Botanical Garden",
+    "city": "Bangalore",
+    "type": "Nature",
+    "rating": 4.5,
+    "entry_fee": 10,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Historic botanical garden with glass house and ancient rock",
+    "tags": [
+      "nature",
+      "garden",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P025",
+    "name": "Victoria Memorial",
+    "city": "Kolkata",
+    "type": "Heritage",
+    "rating": 4.6,
+    "entry_fee": 30,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Magnificent white marble building dedicated to Queen Victoria",
+    "tags": [
+      "heritage",
+      "history",
+      "architecture"
+    ]
+  },
+  {
+    "place_id": "P026",
+    "name": "Howrah Bridge",
+    "city": "Kolkata",
+    "type": "Monument",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Sunrise",
+    "duration_hours": 1,
+    "description": "Iconic cantilever bridge over the Hooghly River",
+    "tags": [
+      "bridge",
+      "iconic",
+      "river view"
+    ]
+  },
+  {
+    "place_id": "P027",
+    "name": "Dakshineswar Kali Temple",
+    "city": "Kolkata",
+    "type": "Religious",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Hindu temple on the eastern bank of Hooghly River",
+    "tags": [
+      "temple",
+      "spiritual",
+      "river"
+    ]
+  },
+  {
+    "place_id": "P028",
+    "name": "Charminar",
+    "city": "Hyderabad",
+    "type": "Heritage",
+    "rating": 4.5,
+    "entry_fee": 25,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "Iconic 16th century mosque and monument in old city",
+    "tags": [
+      "heritage",
+      "history",
+      "iconic"
+    ]
+  },
+  {
+    "place_id": "P029",
+    "name": "Golconda Fort",
+    "city": "Hyderabad",
+    "type": "Heritage",
+    "rating": 4.5,
+    "entry_fee": 25,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "Magnificent medieval fort with acoustic wonders and light show",
+    "tags": [
+      "fort",
+      "heritage",
+      "trekking"
+    ]
+  },
+  {
+    "place_id": "P030",
+    "name": "Hawa Mahal",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.6,
+    "entry_fee": 50,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "Palace of Winds with 953 windows, iconic pink city landmark",
+    "tags": [
+      "heritage",
+      "palace",
+      "iconic"
+    ]
+  },
+  {
+    "place_id": "P031",
+    "name": "Amber Fort",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.7,
+    "entry_fee": 500,
+    "best_time": "Morning",
+    "duration_hours": 3,
+    "description": "Majestic hilltop fort with elephant rides and stunning views",
+    "tags": [
+      "fort",
+      "heritage",
+      "views"
+    ]
+  },
+  {
+    "place_id": "P032",
+    "name": "City Palace Jaipur",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.5,
+    "entry_fee": 700,
+    "best_time": "Morning",
+    "duration_hours": 2.5,
+    "description": "Royal palace complex with museums, courtyards and art galleries",
+    "tags": [
+      "palace",
+      "heritage",
+      "museum"
+    ]
+  },
+  {
+    "place_id": "P033",
+    "name": "Jantar Mantar Jaipur",
+    "city": "Jaipur",
+    "type": "Heritage",
+    "rating": 4.4,
+    "entry_fee": 200,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "UNESCO World Heritage astronomical observatory",
+    "tags": [
+      "UNESCO",
+      "science",
+      "heritage"
+    ]
+  },
+  {
+    "place_id": "P034",
+    "name": "Solang Valley",
+    "city": "Manali",
+    "type": "Adventure",
+    "rating": 4.7,
+    "entry_fee": 0,
+    "best_time": "Winter/Spring",
+    "duration_hours": 4,
+    "description": "Skiing, snowboarding, zorbing, and snow activities",
+    "tags": [
+      "adventure",
+      "snow",
+      "skiing"
+    ]
+  },
+  {
+    "place_id": "P035",
+    "name": "Rohtang Pass",
+    "city": "Manali",
+    "type": "Nature",
+    "rating": 4.8,
+    "entry_fee": 550,
+    "best_time": "May to November",
+    "duration_hours": 5,
+    "description": "High mountain pass with breathtaking snow views",
+    "tags": [
+      "mountain",
+      "snow",
+      "adventure",
+      "views"
+    ]
+  },
+  {
+    "place_id": "P036",
+    "name": "Hadimba Temple",
+    "city": "Manali",
+    "type": "Religious",
+    "rating": 4.5,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "Ancient cave temple surrounded by cedar forests",
+    "tags": [
+      "temple",
+      "forest",
+      "history"
+    ]
+  },
+  {
+    "place_id": "P037",
+    "name": "Old Manali Walk",
+    "city": "Manali",
+    "type": "Cultural",
+    "rating": 4.3,
+    "entry_fee": 0,
+    "best_time": "Afternoon",
+    "duration_hours": 2,
+    "description": "Quaint cafes, hippie shops, and local culture exploration",
+    "tags": [
+      "culture",
+      "cafes",
+      "local"
+    ]
+  },
+  {
+    "place_id": "P038",
+    "name": "Meenakshi Temple",
+    "city": "Chennai",
+    "type": "Religious",
+    "rating": 4.7,
+    "entry_fee": 50,
+    "best_time": "Morning",
+    "duration_hours": 2,
+    "description": "Ancient Dravidian temple with towering gopurams",
+    "tags": [
+      "temple",
+      "spiritual",
+      "heritage"
+    ]
+  },
+  {
+    "place_id": "P039",
+    "name": "Marina Beach",
+    "city": "Chennai",
+    "type": "Beach",
+    "rating": 4.3,
+    "entry_fee": 0,
+    "best_time": "Morning/Evening",
+    "duration_hours": 2.5,
+    "description": "One of the worlds longest beaches with food stalls",
+    "tags": [
+      "beach",
+      "sunrise",
+      "food",
+      "family"
+    ]
+  },
+  {
+    "place_id": "P040",
+    "name": "Kapaleeshwarar Temple",
+    "city": "Chennai",
+    "type": "Religious",
+    "rating": 4.6,
+    "entry_fee": 0,
+    "best_time": "Morning",
+    "duration_hours": 1.5,
+    "description": "Ancient Dravidian-style Shiva temple in Mylapore",
+    "tags": [
+      "temple",
+      "spiritual",
+      "architecture"
+    ]
+  }
+]

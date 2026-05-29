@@ -1,0 +1,577 @@
+[
+  {
+    "hotel_id": "H001",
+    "name": "The Leela Goa",
+    "city": "Goa",
+    "area": "Cavelossim",
+    "rating": 5.0,
+    "price_per_night": 12000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Beach Access",
+      "Restaurant",
+      "WiFi",
+      "Gym"
+    ],
+    "type": "Luxury",
+    "rooms_available": 15,
+    "breakfast_included": true,
+    "review_score": 9.2
+  },
+  {
+    "hotel_id": "H002",
+    "name": "Sea View Resort",
+    "city": "Goa",
+    "area": "Baga",
+    "rating": 4.0,
+    "price_per_night": 3200,
+    "amenities": [
+      "Pool",
+      "Restaurant",
+      "WiFi",
+      "AC"
+    ],
+    "type": "Mid-Range",
+    "rooms_available": 30,
+    "breakfast_included": false,
+    "review_score": 8.1
+  },
+  {
+    "hotel_id": "H003",
+    "name": "Zostel Goa",
+    "city": "Goa",
+    "area": "Anjuna",
+    "rating": 3.5,
+    "price_per_night": 800,
+    "amenities": [
+      "WiFi",
+      "Common Area",
+      "Locker"
+    ],
+    "type": "Hostel",
+    "rooms_available": 50,
+    "breakfast_included": false,
+    "review_score": 7.8
+  },
+  {
+    "hotel_id": "H004",
+    "name": "Taj Exotica Goa",
+    "city": "Goa",
+    "area": "Benaulim",
+    "rating": 5.0,
+    "price_per_night": 18000,
+    "amenities": [
+      "Private Beach",
+      "Spa",
+      "Pool",
+      "Fine Dining",
+      "Butler Service",
+      "WiFi"
+    ],
+    "type": "Luxury",
+    "rooms_available": 8,
+    "breakfast_included": true,
+    "review_score": 9.6
+  },
+  {
+    "hotel_id": "H005",
+    "name": "Aloft Goa Panaji",
+    "city": "Goa",
+    "area": "Panaji",
+    "rating": 4.0,
+    "price_per_night": 4500,
+    "amenities": [
+      "Pool",
+      "Bar",
+      "WiFi",
+      "Gym",
+      "Restaurant"
+    ],
+    "type": "Mid-Range",
+    "rooms_available": 22,
+    "breakfast_included": true,
+    "review_score": 8.4
+  },
+  {
+    "hotel_id": "H006",
+    "name": "The Oberoi Udaivillas",
+    "city": "Udaipur",
+    "area": "Lake Pichola",
+    "rating": 5.0,
+    "price_per_night": 35000,
+    "amenities": [
+      "Lake View",
+      "Spa",
+      "Pool",
+      "Fine Dining",
+      "Boat Rides",
+      "WiFi"
+    ],
+    "type": "Luxury",
+    "rooms_available": 5,
+    "breakfast_included": true,
+    "review_score": 9.8
+  },
+  {
+    "hotel_id": "H007",
+    "name": "Hotel Mahendra Prakash",
+    "city": "Udaipur",
+    "area": "City Palace Road",
+    "rating": 3.5,
+    "price_per_night": 2200,
+    "amenities": [
+      "Restaurant",
+      "WiFi",
+      "AC",
+      "Parking"
+    ],
+    "type": "Budget",
+    "rooms_available": 35,
+    "breakfast_included": false,
+    "review_score": 7.5
+  },
+  {
+    "hotel_id": "H008",
+    "name": "Radisson Blu Udaipur",
+    "city": "Udaipur",
+    "area": "Rani Road",
+    "rating": 4.5,
+    "price_per_night": 7500,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Conference Room"
+    ],
+    "type": "Premium",
+    "rooms_available": 18,
+    "breakfast_included": true,
+    "review_score": 8.9
+  },
+  {
+    "hotel_id": "H009",
+    "name": "The Imperial New Delhi",
+    "city": "Delhi",
+    "area": "Connaught Place",
+    "rating": 5.0,
+    "price_per_night": 22000,
+    "amenities": [
+      "Spa",
+      "Pool",
+      "Fine Dining",
+      "Heritage Walk",
+      "WiFi",
+      "Butler"
+    ],
+    "type": "Luxury",
+    "rooms_available": 10,
+    "breakfast_included": true,
+    "review_score": 9.4
+  },
+  {
+    "hotel_id": "H010",
+    "name": "Bloom Hotel Delhi",
+    "city": "Delhi",
+    "area": "Vasant Kunj",
+    "rating": 3.5,
+    "price_per_night": 3000,
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Restaurant",
+      "Parking"
+    ],
+    "type": "Budget",
+    "rooms_available": 45,
+    "breakfast_included": false,
+    "review_score": 7.9
+  },
+  {
+    "hotel_id": "H011",
+    "name": "ITC Maurya Delhi",
+    "city": "Delhi",
+    "area": "Diplomatic Enclave",
+    "rating": 5.0,
+    "price_per_night": 19000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Fine Dining",
+      "Bar",
+      "WiFi",
+      "Gym",
+      "Business Center"
+    ],
+    "type": "Luxury",
+    "rooms_available": 12,
+    "breakfast_included": true,
+    "review_score": 9.3
+  },
+  {
+    "hotel_id": "H012",
+    "name": "Treehouse Hotels Delhi",
+    "city": "Delhi",
+    "area": "Mehrauli",
+    "rating": 4.0,
+    "price_per_night": 5500,
+    "amenities": [
+      "Pool",
+      "Restaurant",
+      "WiFi",
+      "Gym"
+    ],
+    "type": "Mid-Range",
+    "rooms_available": 28,
+    "breakfast_included": false,
+    "review_score": 8.2
+  },
+  {
+    "hotel_id": "H013",
+    "name": "Taj Mahal Palace Mumbai",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "rating": 5.0,
+    "price_per_night": 28000,
+    "amenities": [
+      "Sea View",
+      "Spa",
+      "Pool",
+      "Fine Dining",
+      "WiFi",
+      "Butler",
+      "Heritage Tours"
+    ],
+    "type": "Luxury",
+    "rooms_available": 7,
+    "breakfast_included": true,
+    "review_score": 9.7
+  },
+  {
+    "hotel_id": "H014",
+    "name": "ITC Grand Central Mumbai",
+    "city": "Mumbai",
+    "area": "Parel",
+    "rating": 5.0,
+    "price_per_night": 16000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Fine Dining",
+      "WiFi",
+      "Gym",
+      "Business Center"
+    ],
+    "type": "Luxury",
+    "rooms_available": 11,
+    "breakfast_included": true,
+    "review_score": 9.1
+  },
+  {
+    "hotel_id": "H015",
+    "name": "Abode Bombay",
+    "city": "Mumbai",
+    "area": "Colaba",
+    "rating": 4.0,
+    "price_per_night": 6000,
+    "amenities": [
+      "WiFi",
+      "Terrace",
+      "Bar",
+      "Restaurant"
+    ],
+    "type": "Boutique",
+    "rooms_available": 20,
+    "breakfast_included": false,
+    "review_score": 8.6
+  },
+  {
+    "hotel_id": "H016",
+    "name": "Zostel Mumbai",
+    "city": "Mumbai",
+    "area": "Bandra",
+    "rating": 3.0,
+    "price_per_night": 700,
+    "amenities": [
+      "WiFi",
+      "Common Area",
+      "Locker",
+      "AC"
+    ],
+    "type": "Hostel",
+    "rooms_available": 60,
+    "breakfast_included": false,
+    "review_score": 7.6
+  },
+  {
+    "hotel_id": "H017",
+    "name": "The Lalit Ashok Bangalore",
+    "city": "Bangalore",
+    "area": "Kumara Krupa",
+    "rating": 5.0,
+    "price_per_night": 14000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Fine Dining",
+      "WiFi",
+      "Gym",
+      "Garden"
+    ],
+    "type": "Luxury",
+    "rooms_available": 9,
+    "breakfast_included": true,
+    "review_score": 9.0
+  },
+  {
+    "hotel_id": "H018",
+    "name": "Lemon Tree Premier Bangalore",
+    "city": "Bangalore",
+    "area": "Ulsoor",
+    "rating": 4.0,
+    "price_per_night": 5800,
+    "amenities": [
+      "Pool",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Bar"
+    ],
+    "type": "Mid-Range",
+    "rooms_available": 32,
+    "breakfast_included": true,
+    "review_score": 8.3
+  },
+  {
+    "hotel_id": "H019",
+    "name": "Treebo Trip Bangalore",
+    "city": "Bangalore",
+    "area": "Koramangala",
+    "rating": 3.0,
+    "price_per_night": 1800,
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Parking"
+    ],
+    "type": "Budget",
+    "rooms_available": 55,
+    "breakfast_included": false,
+    "review_score": 7.4
+  },
+  {
+    "hotel_id": "H020",
+    "name": "JW Marriott Kolkata",
+    "city": "Kolkata",
+    "area": "Salt Lake",
+    "rating": 5.0,
+    "price_per_night": 15000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Fine Dining",
+      "WiFi",
+      "Gym",
+      "Bar"
+    ],
+    "type": "Luxury",
+    "rooms_available": 13,
+    "breakfast_included": true,
+    "review_score": 9.2
+  },
+  {
+    "hotel_id": "H021",
+    "name": "Peerless Inn Kolkata",
+    "city": "Kolkata",
+    "area": "Esplanade",
+    "rating": 3.5,
+    "price_per_night": 2500,
+    "amenities": [
+      "Restaurant",
+      "WiFi",
+      "AC",
+      "Parking",
+      "Tour Desk"
+    ],
+    "type": "Budget",
+    "rooms_available": 40,
+    "breakfast_included": false,
+    "review_score": 7.7
+  },
+  {
+    "hotel_id": "H022",
+    "name": "Taj Falaknuma Palace",
+    "city": "Hyderabad",
+    "area": "Falaknuma",
+    "rating": 5.0,
+    "price_per_night": 40000,
+    "amenities": [
+      "Palace Tour",
+      "Fine Dining",
+      "Spa",
+      "WiFi",
+      "Butler",
+      "Heritage Carriage"
+    ],
+    "type": "Heritage Luxury",
+    "rooms_available": 4,
+    "breakfast_included": true,
+    "review_score": 9.9
+  },
+  {
+    "hotel_id": "H023",
+    "name": "Novotel Hyderabad",
+    "city": "Hyderabad",
+    "area": "Hitech City",
+    "rating": 4.5,
+    "price_per_night": 7000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Conference"
+    ],
+    "type": "Premium",
+    "rooms_available": 25,
+    "breakfast_included": true,
+    "review_score": 8.7
+  },
+  {
+    "hotel_id": "H024",
+    "name": "Jaipur Marriott Hotel",
+    "city": "Jaipur",
+    "area": "Ashok Nagar",
+    "rating": 5.0,
+    "price_per_night": 13000,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Rooftop Bar"
+    ],
+    "type": "Luxury",
+    "rooms_available": 16,
+    "breakfast_included": true,
+    "review_score": 9.1
+  },
+  {
+    "hotel_id": "H025",
+    "name": "Hotel Pearl Palace Jaipur",
+    "city": "Jaipur",
+    "area": "Hathroi Fort",
+    "rating": 3.5,
+    "price_per_night": 1500,
+    "amenities": [
+      "Restaurant",
+      "WiFi",
+      "Rooftop",
+      "Tour Desk"
+    ],
+    "type": "Budget",
+    "rooms_available": 48,
+    "breakfast_included": false,
+    "review_score": 8.0
+  },
+  {
+    "hotel_id": "H026",
+    "name": "Solang Valley Resort Manali",
+    "city": "Manali",
+    "area": "Solang Valley",
+    "rating": 4.0,
+    "price_per_night": 4200,
+    "amenities": [
+      "Mountain View",
+      "Restaurant",
+      "WiFi",
+      "Bonfire",
+      "Skiing Access"
+    ],
+    "type": "Resort",
+    "rooms_available": 22,
+    "breakfast_included": true,
+    "review_score": 8.5
+  },
+  {
+    "hotel_id": "H027",
+    "name": "Zostel Manali",
+    "city": "Manali",
+    "area": "Old Manali",
+    "rating": 3.5,
+    "price_per_night": 600,
+    "amenities": [
+      "WiFi",
+      "Common Area",
+      "Mountain View",
+      "Bonfire"
+    ],
+    "type": "Hostel",
+    "rooms_available": 70,
+    "breakfast_included": false,
+    "review_score": 8.2
+  },
+  {
+    "hotel_id": "H028",
+    "name": "Span Resort Spa Manali",
+    "city": "Manali",
+    "area": "Kullu",
+    "rating": 4.5,
+    "price_per_night": 9500,
+    "amenities": [
+      "Spa",
+      "River View",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Adventure Activities"
+    ],
+    "type": "Premium",
+    "rooms_available": 14,
+    "breakfast_included": true,
+    "review_score": 8.8
+  },
+  {
+    "hotel_id": "H029",
+    "name": "Radisson Blu Chennai",
+    "city": "Chennai",
+    "area": "Egmore",
+    "rating": 4.5,
+    "price_per_night": 8500,
+    "amenities": [
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "WiFi",
+      "Gym",
+      "Business Center"
+    ],
+    "type": "Premium",
+    "rooms_available": 20,
+    "breakfast_included": true,
+    "review_score": 8.8
+  },
+  {
+    "hotel_id": "H030",
+    "name": "Hotel Deccan Heritage Chennai",
+    "city": "Chennai",
+    "area": "Anna Salai",
+    "rating": 3.5,
+    "price_per_night": 2800,
+    "amenities": [
+      "Restaurant",
+      "WiFi",
+      "AC",
+      "Parking",
+      "24hr Room Service"
+    ],
+    "type": "Budget",
+    "rooms_available": 42,
+    "breakfast_included": false,
+    "review_score": 7.6
+  }
+]
