@@ -115,7 +115,6 @@ def create_travel_agent(api_key: str = None, provider: str = "openai"):
             model="gemini-2.5-flash",
             temperature=0.3,
             google_api_key=resolved_key,
-            convert_system_message_to_human=False,
         )
     else:
         if api_key:
