@@ -2,12 +2,19 @@
 
 > An intelligent, autonomous travel planner powered by **LangChain**, **Google Gemini 2.5 / OpenAI**, and real-time APIs.  
 > Autonomously creates complete, customized trip itineraries across India — dynamically pulling flights, hotels, weather, local attractions, and budget breakdowns.
+---
+<img width="1919" height="858" alt="Screenshot 2026-05-30 071145" src="https://github.com/user-attachments/assets/94def308-b7e8-4b90-a6ad-cb6544a99135" />
+---
+<img width="1919" height="867" alt="Screenshot 2026-05-30 071205" src="https://github.com/user-attachments/assets/992d9520-cd49-486e-92c2-fffaea50dd15" />
+---
+<img width="1915" height="870" alt="Screenshot 2026-05-30 071220" src="https://github.com/user-attachments/assets/8849bdbe-7e3f-4564-a761-bea1f402b719" />
 
 ---
 
 ## 🚀 Live Demo & Streamlit Deployment
 This application is fully prepared and optimized for immediate deployment on **Streamlit Community Cloud**!
 
+* **Live Streamlit URL:** https://travelplanneragent-frjhsn4ygbnbbsaeazujmr.streamlit.app/
 * **GitHub Repository:** `https://github.com/MAYANKKAUSHIK01/Travel_Planner_Agent`
 * **Local Web App Interface:** Runs seamlessly on `http://localhost:8501`.
 
