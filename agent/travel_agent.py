@@ -8,8 +8,10 @@ import sys
 import time
 from pathlib import Path
 
-# Add project root to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add project root to path — guard prevents duplicate entries on repeated imports
+_project_root = str(Path(__file__).parent.parent)
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
 
 from langchain_openai import ChatOpenAI
 # Use direct submodule imports — langchain's top-level __init__.py sometimes

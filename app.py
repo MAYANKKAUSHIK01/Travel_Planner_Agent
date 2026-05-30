@@ -5,18 +5,6 @@ Built with LangChain + OpenAI + Open-Meteo API
 
 import sys
 import os
-print("=== STARTUP DIAGNOSTICS ===")
-print(f"Python executable: {sys.executable}")
-print(f"Python version: {sys.version}")
-print(f"sys.path: {sys.path}")
-try:
-    import langchain
-    print(f"langchain version: {getattr(langchain, '__version__', 'unknown')}")
-    print(f"langchain file: {getattr(langchain, '__file__', 'unknown')}")
-except Exception as e:
-    print(f"Failed to import langchain: {e}")
-print("===========================")
-
 import time
 import json
 from pathlib import Path
@@ -24,8 +12,10 @@ from datetime import datetime, timedelta
 
 import streamlit as st
 
-# Add project root to path
-sys.path.insert(0, str(Path(__file__).parent))
+# Add project root to path — guard prevents duplicate entries on every Streamlit rerun
+_project_root = str(Path(__file__).parent)
+if _project_root not in sys.path:
+    sys.path.insert(0, _project_root)
 
 from utils.helpers import (
     get_suggested_queries, sanitize_api_key,
