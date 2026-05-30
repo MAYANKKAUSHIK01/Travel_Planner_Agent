@@ -178,20 +178,8 @@ def run_travel_query(query: str, api_key: str = None, provider: str = "openai",
     }
 
     config = {}
-    if provider.lower() == "gemini":
-        from langchain_core.callbacks import BaseCallbackHandler
-        class RateLimitStaggerHandler(BaseCallbackHandler):
-            """Callback handler to sleep between LLM calls to prevent free tier rate limit exhaustion."""
-            def __init__(self, delay_secs: float = 13.0):
-                self.delay_secs = delay_secs
-                self.first_call = True
-
-            def on_llm_start(self, serialized, prompts, **kwargs):
-                if not self.first_call:
-                    print(f"Staggering Gemini LLM call: sleeping for {self.delay_secs}s to respect free-tier rate limits...")
-                    time.sleep(self.delay_secs)
-                self.first_call = False
-        config["callbacks"] = [RateLimitStaggerHandler()]
+    # Removed manual 13s stagger handler to speed up responses.
+    # If a rate limit is hit, the built-in retry block below will handle it gracefully.
 
     last_error = None
     for attempt in range(1, max_retries + 1):
