@@ -649,7 +649,7 @@ if plan_clicked and query.strip():
                 st.markdown(f"""
                 <div class="warning-box">
                     <strong>❌ Google Gemini Model Not Found (404)</strong><br>
-                    The model <code>gemini-flash-latest</code> was not found or is not supported for your API key/region.<br>
+                    The selected model was not found or is not supported for your API key/region.<br>
                     {models_list_str}<br>
                     <strong>How to fix:</strong><br>
                     &nbsp;• Verify you entered the correct Gemini API key in the sidebar.<br>
@@ -677,26 +677,24 @@ if plan_clicked and query.strip():
                 </div>
                 """, unsafe_allow_html=True)
             elif "quota" in err_msg.lower() or "insufficient_quota" in err_msg.lower():
-                st.markdown("""
+                st.markdown(f"""
                 <div class="warning-box">
-                    <strong>💳 OpenAI Quota Exceeded / Expired</strong><br>
-                    Your OpenAI account has run out of API credits or your free trial credits have expired.<br><br>
-                    <strong>Why this happens:</strong><br>
-                    OpenAI free trial credits expire 3 months after account creation. If you created a "fresh" API key on an older account or haven't loaded funds, the key will return this error even if the key itself is newly created.<br><br>
+                    <strong>💳 {st.session_state.provider} Quota Exceeded / Expired</strong><br>
+                    Your account has run out of API credits or your free tier limit has been reached.<br><br>
                     <strong>How to fix:</strong><br>
-                    &nbsp;• Go to <a href="https://platform.openai.com/settings/billing" target="_blank">platform.openai.com/settings/billing</a> and load a minimum of $5 credit.<br>
-                    &nbsp;• Or use a different OpenAI account/key with active paid credits.
+                    &nbsp;• If using Gemini free tier, you may have hit the daily request limit. Try again tomorrow or use a different key.<br>
+                    &nbsp;• If using OpenAI, go to <a href="https://platform.openai.com/settings/billing" target="_blank">platform.openai.com/settings/billing</a> and check your credit balance.
                 </div>
                 """, unsafe_allow_html=True)
             elif "rate_limit" in err_msg.lower() or "429" in err_msg or "rate limit" in err_msg.lower():
-                st.markdown("""
+                st.markdown(f"""
                 <div class="warning-box">
-                    <strong>⏳ OpenAI Rate Limit Reached (429)</strong><br>
-                    You've hit your API rate limit. The agent already retried 3 times automatically.<br><br>
+                    <strong>⏳ {st.session_state.provider} Rate Limit Reached (429)</strong><br>
+                    You've hit your API rate limit.<br><br>
                     <strong>What to do:</strong><br>
                     &nbsp;• Wait <strong>30–60 seconds</strong>, then click <em>Plan My Trip</em> again<br>
-                    &nbsp;• Free-tier keys have a limit of ~3 requests/min — consider upgrading your plan<br>
-                    &nbsp;• Check your usage at <a href="https://platform.openai.com/usage" target="_blank">platform.openai.com/usage</a>
+                    &nbsp;• If using Gemini, check your limits at <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a><br>
+                    &nbsp;• If using OpenAI, check your usage at <a href="https://platform.openai.com/usage" target="_blank">platform.openai.com/usage</a>
                 </div>
                 """, unsafe_allow_html=True)
             elif "timeout" in err_msg.lower() or "timed out" in err_msg.lower():
