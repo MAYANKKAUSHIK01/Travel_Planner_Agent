@@ -346,8 +346,8 @@ with st.sidebar:
         st.markdown("#### 🧠 Gemini Model")
         st.session_state.gemini_model = st.selectbox(
             "Select Gemini Model",
-            options=["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"],
-            index=["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"].index(st.session_state.gemini_model) if st.session_state.gemini_model in ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"] else 0,
+            options=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"],
+            index=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"].index(st.session_state.gemini_model) if st.session_state.gemini_model in ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"] else 0,
             label_visibility="collapsed",
         )
     else:
