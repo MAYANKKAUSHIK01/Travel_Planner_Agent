@@ -98,13 +98,14 @@ Day 1: [Date] — [Theme]
 """
 
 
-def create_travel_agent(api_key: str = None, provider: str = "openai"):
+def create_travel_agent(api_key: str = None, provider: str = "openai", model: str = None):
     """
     Create and return a configured LangChain Travel Agent.
     
     Args:
         api_key: API key for the chosen LLM provider
         provider: LLM provider ("openai" or "gemini")
+        model: Specific model string to use (e.g., "gemini-1.5-pro")
     
     Returns:
         AgentExecutor instance ready for queries
@@ -114,7 +115,7 @@ def create_travel_agent(api_key: str = None, provider: str = "openai"):
         from langchain_google_genai import ChatGoogleGenerativeAI
         resolved_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
         llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash",
+            model=model or "gemini-1.5-flash",
             temperature=0.3,
             google_api_key=resolved_key,
         )
@@ -153,7 +154,7 @@ def create_travel_agent(api_key: str = None, provider: str = "openai"):
 
 
 def run_travel_query(query: str, api_key: str = None, provider: str = "openai",
-                     chat_history: list = None, max_retries: int = 3) -> dict:
+                     model: str = None, chat_history: list = None, max_retries: int = 3) -> dict:
     """
     Run a travel planning query through the agent.
     Automatically retries with exponential backoff on rate-limit (429) errors.
@@ -162,13 +163,14 @@ def run_travel_query(query: str, api_key: str = None, provider: str = "openai",
         query: Natural language travel request
         api_key: LLM API key
         provider: LLM provider ("openai" or "gemini")
+        model: Specific model string to use
         chat_history: Optional conversation history for multi-turn
         max_retries: Maximum retry attempts on rate-limit errors (default 3)
 
     Returns:
         Dictionary with 'output' and 'steps' keys
     """
-    agent = create_travel_agent(api_key, provider=provider)
+    agent = create_travel_agent(api_key, provider=provider, model=model)
 
     inputs = {
         "input": query,

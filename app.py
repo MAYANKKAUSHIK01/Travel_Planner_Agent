@@ -277,6 +277,7 @@ def init_session():
         "provider": "Google Gemini (Free)",
         "openai_api_key": "",
         "gemini_api_key": "",
+        "gemini_model": "gemini-1.5-flash",
         "chat_history": [],
         "query_history": [],
         "last_result": None,
@@ -341,6 +342,14 @@ with st.sidebar:
                 '</div>',
                 unsafe_allow_html=True
             )
+            
+        st.markdown("#### 🧠 Gemini Model")
+        st.session_state.gemini_model = st.selectbox(
+            "Select Gemini Model",
+            options=["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"],
+            index=["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"].index(st.session_state.gemini_model) if st.session_state.gemini_model in ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash", "gemini-2.5-flash"] else 0,
+            label_visibility="collapsed",
+        )
     else:
         st.markdown("#### 🔑 OpenAI API Key")
         api_input = st.text_input(
@@ -562,6 +571,7 @@ if plan_clicked and query.strip():
                 query=query,
                 api_key=active_key,
                 provider=active_provider,
+                model=st.session_state.gemini_model if active_provider == "gemini" else None,
                 chat_history=st.session_state.chat_history[-6:],
                 max_retries=3,
             )
