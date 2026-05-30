@@ -277,7 +277,7 @@ def init_session():
         "provider": "Google Gemini (Free)",
         "openai_api_key": "",
         "gemini_api_key": "",
-        "gemini_model": "gemini-1.5-flash",
+        "gemini_model": "gemini-2.5-flash",
         "chat_history": [],
         "query_history": [],
         "last_result": None,
@@ -346,8 +346,8 @@ with st.sidebar:
         st.markdown("#### 🧠 Gemini Model")
         st.session_state.gemini_model = st.selectbox(
             "Select Gemini Model",
-            options=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"],
-            index=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"].index(st.session_state.gemini_model) if st.session_state.gemini_model in ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"] else 0,
+            options=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3"],
+            index=["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3"].index(st.session_state.gemini_model) if st.session_state.gemini_model in ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-3"] else 0,
             label_visibility="collapsed",
         )
     else:

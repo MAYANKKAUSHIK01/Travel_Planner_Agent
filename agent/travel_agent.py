@@ -115,7 +115,7 @@ def create_travel_agent(api_key: str = None, provider: str = "openai", model: st
         from langchain_google_genai import ChatGoogleGenerativeAI
         resolved_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
         llm = ChatGoogleGenerativeAI(
-            model=model or "gemini-1.5-flash",
+            model=model or "gemini-2.5-flash",
             temperature=0.3,
             google_api_key=resolved_key,
         )
